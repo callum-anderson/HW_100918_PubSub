@@ -15,7 +15,7 @@ PrimeChecker.prototype.bindEvents = function () {
 PrimeChecker.prototype.isPrime = function (number) {
   if (number < 2) {
     return false;
-  } else if (number === 2) {
+  } else if (number == 2) {
     return true;
   } else if (number % 2 === 0) {
     return false;
